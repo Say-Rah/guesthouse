@@ -17,8 +17,7 @@ export default function Contact() {
                     className="img-fluid rounded w-100"
                     src="/img/call-to-action.png"  // Ensure your img path is correct
                     alt="Contact Agent"
-                    width={500}  // Add width and height for next/img
-                    height={500}
+                    
                   />
                 </div>
                 <div className="col-lg-6">
