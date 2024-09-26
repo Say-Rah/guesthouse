@@ -4,21 +4,21 @@ import React, { useState, useEffect } from "react";
 const testimonials = [
   {
     message:
-      "Our stay at Waikiki&lsquo;s Guest House was nothing short of spectacular. The ambiance was elegant, and the service was impeccable. Every detail was thoughtfully considered, making our visit both luxurious and comfortable. It’s truly a gem in American Victorian. Highly recommended!",
+      "Our stay at Waikiki&lsquo;s Guest House was nothing short of spectacular. The ambiance was elegant, and the service was impeccable. Every detail was thoughtfully considered, making our visit both luxurious and comfortable. It&lsquo;s truly a gem in American Victorian. Highly recommended!",
     name: "Emily Thompson",
     occupation: "Actress",
     image: "/img/testimonial1.png",
   },
   {
     message:
-      "From the moment I walked through the doors, Waikiki&lsquo;s Guest House made me feel like royalty. The accommodations were stunning, and the staff went above and beyond to ensure I had a perfect stay. It’s the ideal retreat for anyone seeking a blend of opulence and relaxation.",
+      "From the moment I walked through the doors, Waikiki&lsquo;s Guest House made me feel like royalty. The accommodations were stunning, and the staff went above and beyond to ensure I had a perfect stay. It&lsquo;s the ideal retreat for anyone seeking a blend of opulence and relaxation.",
     name: "Robert Gideon-el",
     occupation: "Financial Analyst",
     image: "/img/testimonial2.png",
   },
   {
     message:
-      "Waikiki&lsquo;s Guest House is an oasis of luxury. The sophisticated design and attentive service created a memorable experience. It’s clear that every detail is crafted with care. If you’re looking for the ultimate luxury escape, this guest house is a must-visit!",
+      "Waikiki&lsquo;s Guest House is an oasis of luxury. The sophisticated design and attentive service created a memorable experience. It&lsquo;s clear that every detail is crafted with care. If you&lsquo;re looking for the ultimate luxury escape, this guest house is a must-visit!",
     name: "Paul Sylvester",
     occupation: "Travel Blogger",
     image: "/img/testimonial3.JPG",
