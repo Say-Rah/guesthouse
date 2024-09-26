@@ -1,4 +1,3 @@
-import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -59,44 +58,44 @@ const Footer = () => {
           <div>
             <h5 className="text-white mb-4">Photo Gallery</h5>
             <div className="grid grid-cols-3 gap-2">
-              <Image
+              <img
                 className="rounded-md"
-                src="/images/property-1.jpg"  // Ensure your image paths are correct
+                src="/img/property-1.jpg"  // Ensure your img paths are correct
                 alt="Property 1"
                 width={100}
                 height={100}
               />
-              <Image
+              <img
                 className="rounded-md"
-                src="/images/property-2.jpg"
+                src="/img/property-2.jpg"
                 alt="Property 2"
                 width={100}
                 height={100}
               />
-              <Image
+              <img
                 className="rounded-md"
-                src="/images/property-3.jpg"
+                src="/img/property-3.jpg"
                 alt="Property 3"
                 width={100}
                 height={100}
               />
-              <Image
+              <img
                 className="rounded-md"
-                src="/images/property-4.jpg"
+                src="/img/property-4.jpg"
                 alt="Property 4"
                 width={100}
                 height={100}
               />
-              <Image
+              <img
                 className="rounded-md"
-                src="/images/property-5.jpg"
+                src="/img/property-5.jpg"
                 alt="Property 5"
                 width={100}
                 height={100}
               />
-              <Image
+              <img
                 className="rounded-md"
-                src="/images/property-6.jpg"
+                src="/img/property-6.jpg"
                 alt="Property 6"
                 width={100}
                 height={100}

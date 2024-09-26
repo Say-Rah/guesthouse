@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Image from 'next/image';
 
 const testimonials = [
   {
@@ -8,28 +7,28 @@ const testimonials = [
       "Our stay at Waikiki&rsquo;s Guest House was nothing short of spectacular. The ambiance was elegant, and the service was impeccable. Every detail was thoughtfully considered, making our visit both luxurious and comfortable. It&rsquo;s truly a gem in American Victorian. Highly recommended!",
     name: "Emily Thompson",
     occupation: "Actress",
-    image: "/img/testimonial1.png",
+    img: "/img/testimonial1.png",
   },
   {
     message:
       "From the moment I walked through the doors, Waikiki&rsquo;s Guest House made me feel like royalty. The accommodations were stunning, and the staff went above and beyond to ensure I had a perfect stay. It&rsquo;s the ideal retreat for anyone seeking a blend of opulence and relaxation.",
     name: "Robert Gideon-el",
     occupation: "Financial Analyst",
-    image: "/img/testimonial2.png",
+    img: "/img/testimonial2.png",
   },
   {
     message:
       "Waikiki&rsquo;s Guest House is an oasis of luxury. The sophisticated design and attentive service created a memorable experience. It&rsquo;s clear that every detail is crafted with care. If you&rsquo;re looking for the ultimate luxury escape, this guest house is a must-visit!",
     name: "Paul Sylvester",
     occupation: "Travel Blogger",
-    image: "/img/testimonial3.JPG",
+    img: "/img/testimonial3.JPG",
   },
   {
     message:
       "Waikiki&rsquo;s Guest House offers a comfortable stay with cozy rooms and friendly service, perfect for travelers looking to enjoy a relaxing getaway. Its convenient location near local attractions and beaches adds to the charm, making it a great spot for both leisure and business stays. The property is clean, well-maintained, and provides essential amenities to ensure guests have a pleasant experience.",
     name: "Sayrah Doe",
     occupation: "Business Executive",
-    image: "/img/testimonial4.jpg",
+    img: "/img/testimonial4.jpg",
   },
 ];
 
@@ -83,8 +82,8 @@ const Review = () => {
               <div key={index} className="bg-white p-6 text-left shadow-lg w-[80%] mx-auto rounded-lg">
                 <p className="text-lg italic mb-4">&quot;{testimonial.message}&quot;</p>
                 <div className="flex items-center">
-                  <Image
-                    src={testimonial.image}
+                  <img
+                    src={testimonial.img}
                     alt={testimonial.name}
                     className="w-12 h-12 rounded-full mr-4"
                   />

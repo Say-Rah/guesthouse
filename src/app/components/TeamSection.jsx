@@ -68,7 +68,7 @@ export default TeamSection;
 //     <div className={`col-lg-3 col-md-6 fadeInUp wow`} style={{ animationDelay: delay }}>
 //       <div className="team-item rounded overflow-hidden bg-white shadow-md">
 //         <div className="relative">
-//           <Image className="img-fluid w-full h-64 object-cover" src={image} alt={name} />
+//           <img className="img-fluid w-full h-64 object-cover" src={image} alt={name} />
 //           <div className="absolute inset-x-1/2 top-full -translate-x-1/2 translate-y-1/2 flex items-center space-x-1">
 //             <a className="btn bg-gray-100 p-2 rounded-full" href="#">
 //               <i className="fab fa-facebook-f"></i>

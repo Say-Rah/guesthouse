@@ -5,7 +5,6 @@ import 'swiper/css/navigation'; // If you're using navigation buttons
 import 'swiper/css/pagination'; // If you're using pagination indicators
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Image from 'next/image';
 
 
 
@@ -28,7 +27,7 @@ export default function Header() {
           
         </div>
 
-        {/* Image Carousel Section */}
+        {/* img Carousel Section */}
         <div className="md:w-1/2 mb-5 md:mb-0">
         {/* <Swiper
     spaceBetween={50}
@@ -36,7 +35,7 @@ export default function Header() {
     autoplay={{ delay: 3000 }}  // Auto-swipes every 3 seconds
 >
     <SwiperSlide> */}
-        <Image
+        <img
             className="rounded-lg"
             src="/img/carousel-1.jpg"
             alt="Carousel 1"
@@ -46,7 +45,7 @@ export default function Header() {
         />
     {/* </SwiperSlide>
     <SwiperSlide>
-        <Image
+        <img
             className="rounded-lg"
             src="/img/carousel-2.jpg"
             alt="Carousel 2"

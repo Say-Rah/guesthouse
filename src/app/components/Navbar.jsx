@@ -1,5 +1,4 @@
 "use client";
-import Image from 'next/image'
 import Link from "next/link";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -29,7 +28,7 @@ export default function Navbar() {
         {/* Logo and brand name */}
         <Link href="/" className="flex items-center text-center">
           <div className="p-2 mr-2">
-            <Image className="w-8 h-8" src="/img/icon-deal.png" alt="Icon" />
+            <img className="w-8 h-8" src="/img/icon-deal.png" alt="Icon" />
           </div>
           <h1 className="m-0 text-primary text-xl font-bold">SayRah</h1>
         </Link>

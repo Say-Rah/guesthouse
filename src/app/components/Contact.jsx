@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 export default function Contact() {
   return (
@@ -14,11 +13,11 @@ export default function Contact() {
                 style={{ border: '1px dashed rgba(0, 185, 142, .3)' }}
               >
                 <div className="col-lg-3">
-                  <Image
+                  <img
                     className="img-fluid rounded w-100"
-                    src="/img/call-to-action.png"  // Ensure your image path is correct
+                    src="/img/call-to-action.png"  // Ensure your img path is correct
                     alt="Contact Agent"
-                    width={500}  // Add width and height for next/image
+                    width={500}  // Add width and height for next/img
                     height={500}
                   />
                 </div>

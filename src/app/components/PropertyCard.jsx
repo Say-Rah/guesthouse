@@ -10,7 +10,7 @@ export default function PropertyCard({ title, description, location, price, imag
       {/* Image Section */}
       <div className="relative">
         <Link href="#">
-          <Image className="w-full h-64 object-cover" src={image} alt={title} />
+          <img className="w-full h-64 object-cover" src={image} alt={title} />
         </Link>
         {/* Status Badge */}
         <div

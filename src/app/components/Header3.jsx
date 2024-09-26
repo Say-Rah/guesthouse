@@ -1,4 +1,3 @@
-import Image from 'next/image'
 export default function Header3() {
   return (
     <div className="container-fluid header bg-white p-0">
@@ -21,9 +20,9 @@ export default function Header3() {
           </nav>
         </div>
         
-        {/* Image Section */}
+        {/* img Section */}
         <div className="col-md-6 animated fadeIn">
-          <Image className="img-fluid" src="/img/carousel-2.jpg" alt="Property Agent Header" />
+          <img className="img-fluid" src="/img/carousel-2.jpg" alt="Property Agent Header" />
         </div>
       </div>
     </div>

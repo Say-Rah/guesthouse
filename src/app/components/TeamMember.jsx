@@ -14,7 +14,7 @@ const TeamMember = ({ name, designation, image, facebook, twitter, instagram, de
   return (
     <div className="team-item rounded-lg overflow-hidden shadow-lg transition-all duration-300" style={{ animationDelay: delay }}>
       <div className="relative">
-  <Image
+  <img
     className="w-full h-60 object-cover"
     src={image}
     alt={name}
