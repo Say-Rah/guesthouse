@@ -1,9 +1,9 @@
 "use client";
+import Image from 'next/image'
 import Link from "next/link";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdArrowDropdown } from "react-icons/io"; // Icon for dropdown arrow
-import Image from 'next/image'
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
