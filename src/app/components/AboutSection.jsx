@@ -34,7 +34,7 @@ const AboutSection = () => {
             </li>
             <li>
               <i className="fa fa-check text-primary mr-3"></i>
-              <span className="text-primary font-bold">Innovation:</span> We continuously evolve to bring fresh ideas and cutting-edge solutions to meet our clients' needs.
+              <span className="text-primary font-bold">Innovation:</span> We continuously evolve to bring fresh ideas and cutting-edge solutions to meet our clients&apos; needs.
             </li>
           </ul>
           {/* <a className="inline-block bg-primary text-white py-3 px-6 mt-5 rounded-md hover:bg-opacity-90 transition" href="">
