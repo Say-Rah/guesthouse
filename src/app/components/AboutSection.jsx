@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 const AboutSection = () => {
   return (
     <div className="container mx-auto py-10">
@@ -7,9 +7,9 @@ const AboutSection = () => {
         {/* Image Section */}
         <div className="wow fadeIn" data-wow-delay="0.1s">
           <div className="relative overflow-hidden p-5 pe-0">
-            <img
+            <Image
               className="w-full h-auto object-cover"
-              src="/img/about.jpg"
+              src="/Image/about.jpg"
               alt="About Guest House"
             />
           </div>

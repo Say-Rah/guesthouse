@@ -57,12 +57,12 @@ const Footer = () => {
             <div>
               <h5 className="text-white mb-4">Photo Gallery</h5>
               <div className="grid grid-cols-3 gap-2">
-                <img className="rounded-md" src="img/property-1.jpg" alt="Property 1" />
-                <img className="rounded-md" src="img/property-2.jpg" alt="Property 2" />
-                <img className="rounded-md" src="img/property-3.jpg" alt="Property 3" />
-                <img className="rounded-md" src="img/property-4.jpg" alt="Property 4" />
-                <img className="rounded-md" src="img/property-5.jpg" alt="Property 5" />
-                <img className="rounded-md" src="img/property-6.jpg" alt="Property 6" />
+                <Image className="rounded-md" src="Image/property-1.jpg" alt="Property 1" />
+                <Image className="rounded-md" src="Image/property-2.jpg" alt="Property 2" />
+                <Image className="rounded-md" src="Image/property-3.jpg" alt="Property 3" />
+                <Image className="rounded-md" src="Image/property-4.jpg" alt="Property 4" />
+                <Image className="rounded-md" src="Image/property-5.jpg" alt="Property 5" />
+                <Image className="rounded-md" src="Image/property-6.jpg" alt="Property 6" />
               </div>
             </div>
   

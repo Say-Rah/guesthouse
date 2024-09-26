@@ -10,7 +10,7 @@ export default function Contact() {
                     <div className="bg-white rounded p-4">
                         <div className="row g-5 align-items-center" style={{border: '1px dashed  rgba(0, 185, 142, .3)'}}>
                             <div className="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                                <img className="img-fluid rounded w-100" src="/img/call-to-action.png" alt="image here" />
+                                <Image className="Image-fluid rounded w-100" src="/Image/call-to-action.png" alt="image here" />
                             </div>
                             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div className="mb-4">
