@@ -7,12 +7,11 @@ import PropertyTabs from '@/app/components/PropertyTab';
 import '/public/css/bootstrap.min.css';
 import '/public/css/style.css';
 import Contact from '@/app/components/Contact';
-// import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css';
-// import 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css';
+
 export default function PropertyListPage(){
     return (
         <>
-        <Head>
+        {/* <Head>
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
             <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet" />
@@ -28,7 +27,7 @@ export default function PropertyListPage(){
     
         {/* <!-- Template Javascript --> */}
         <script src="js/main.js"></script>
-          </Head>
+          {/* </Head> */} */
           <Header2/>
           <SearchBar/>
           <PropertyLists/>
