@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRulerCombined, faBed, faBath, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 

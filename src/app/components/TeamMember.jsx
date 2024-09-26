@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 // import { library } from '@fortawesome/fontawesome-svg-core';

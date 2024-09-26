@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Header3() {
   return (
     <div className="container-fluid header bg-white p-0">
