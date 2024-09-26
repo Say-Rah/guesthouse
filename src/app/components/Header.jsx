@@ -20,10 +20,10 @@ export default function Header() {
             Find A <span className="text-blue-600">Perfect Guest House</span> To Live With Your Family On Vacation
           </h1>
           <p className="text-gray-600 mb-4">
-            Experience unique luxury and sophistication at Waikiki's Guest House, where every detail is designed to provide an extraordinary stay. Our Headquarter is Located in Abuja, our guest house offers a sanctuary of elegance and comfort, perfect for discerning travelers seeking an exceptional escape.
+            Experience unique luxury and sophistication at Waikiki&lsquo;s Guest House, where every detail is designed to provide an extraordinary stay. Our Headquarter is Located in Abuja, our guest house offers a sanctuary of elegance and comfort, perfect for discerning travelers seeking an exceptional escape.
           </p>
           <p className="text-gray-600 mb-4">
-            From the moment you arrive, you'll be enveloped in an atmosphere of refined opulence, with personalized service and exquisite surroundings that cater to your every need. At Waikiki's Guest House, luxury isn't just a promise—it's our way of life.
+            From the moment you arrive, you'll be enveloped in an atmosphere of refined opulence, with personalized service and exquisite surroundings that cater to your every need. At Waikiki&lsquo;s Guest House, luxury isn't just a promise—it's our way of life.
           </p>
           
         </div>
@@ -83,7 +83,7 @@ export default function Header() {
 //             Find A <span className="text-primary">Perfect Guest House</span> To Live With Your Family On Vacation
 //           </h1>
 //           <p className="text-gray-700 mb-6 animate-fadeIn">
-//             Experience unique luxury and sophistication at Waikiki's Guest House, where every detail is designed to provide an extraordinary stay. Located in Abuja, our guest house offers a sanctuary of elegance and comfort, perfect for discerning travelers seeking an exceptional escape. From the moment you arrive, you'll be enveloped in an atmosphere of refined opulence, with personalized service and exquisite surroundings that cater to your every need. At Waikiki's Guest House, luxury isn't just a promise it's our way of life. Indulge in the ultimate luxury experience, and we look forward to welcoming you.
+//             Experience unique luxury and sophistication at Waikiki&lsquo;s Guest House, where every detail is designed to provide an extraordinary stay. Located in Abuja, our guest house offers a sanctuary of elegance and comfort, perfect for discerning travelers seeking an exceptional escape. From the moment you arrive, you'll be enveloped in an atmosphere of refined opulence, with personalized service and exquisite surroundings that cater to your every need. At Waikiki&lsquo;s Guest House, luxury isn't just a promise it's our way of life. Indulge in the ultimate luxury experience, and we look forward to welcoming you.
 //           </p>
 //           <a href="#" className="btn bg-primary text-white py-3 px-5 rounded-md animate-fadeIn">Get Started</a>
 //         </div>

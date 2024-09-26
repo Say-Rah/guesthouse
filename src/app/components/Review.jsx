@@ -4,28 +4,28 @@ import React, { useState, useEffect } from "react";
 const testimonials = [
   {
     message:
-      "Our stay at Waikiki's Guest House was nothing short of spectacular. The ambiance was elegant, and the service was impeccable. Every detail was thoughtfully considered, making our visit both luxurious and comfortable. It’s truly a gem in American Victorian. Highly recommended!",
+      "Our stay at Waikiki&lsquo;s Guest House was nothing short of spectacular. The ambiance was elegant, and the service was impeccable. Every detail was thoughtfully considered, making our visit both luxurious and comfortable. It’s truly a gem in American Victorian. Highly recommended!",
     name: "Emily Thompson",
     occupation: "Actress",
     image: "/img/testimonial1.png",
   },
   {
     message:
-      "From the moment I walked through the doors, Waikiki's Guest House made me feel like royalty. The accommodations were stunning, and the staff went above and beyond to ensure I had a perfect stay. It’s the ideal retreat for anyone seeking a blend of opulence and relaxation.",
+      "From the moment I walked through the doors, Waikiki&lsquo;s Guest House made me feel like royalty. The accommodations were stunning, and the staff went above and beyond to ensure I had a perfect stay. It’s the ideal retreat for anyone seeking a blend of opulence and relaxation.",
     name: "Robert Gideon-el",
     occupation: "Financial Analyst",
     image: "/img/testimonial2.png",
   },
   {
     message:
-      "Waikiki's Guest House is an oasis of luxury. The sophisticated design and attentive service created a memorable experience. It’s clear that every detail is crafted with care. If you’re looking for the ultimate luxury escape, this guest house is a must-visit!",
+      "Waikiki&lsquo;s Guest House is an oasis of luxury. The sophisticated design and attentive service created a memorable experience. It’s clear that every detail is crafted with care. If you’re looking for the ultimate luxury escape, this guest house is a must-visit!",
     name: "Paul Sylvester",
     occupation: "Travel Blogger",
     image: "/img/testimonial3.JPG",
   },
   {
     message:
-      "Waikiki's Guest House offers a comfortable stay with cozy rooms and friendly service, perfect for travelers looking to enjoy a relaxing getaway. Its convenient location near local attractions and beaches adds to the charm, making it a great spot for both leisure and business stays. The property is clean, well-maintained, and provides essential amenities to ensure guests have a pleasant experience.",
+      "Waikiki&lsquo;s Guest House offers a comfortable stay with cozy rooms and friendly service, perfect for travelers looking to enjoy a relaxing getaway. Its convenient location near local attractions and beaches adds to the charm, making it a great spot for both leisure and business stays. The property is clean, well-maintained, and provides essential amenities to ensure guests have a pleasant experience.",
     name: " Sayrah Doe",
     occupation: "Business Executive",
     image: "/img/testimonial4.jpg",
@@ -61,7 +61,7 @@ const Review = () => {
         <div className="text-left mx-auto mb-10 max-w-lg">
           <h1 className="text-3xl font-bold mb-4">Our Clients Say!</h1>
           <p>
-            From the moment we arrived at Waikiki's Guest House, we were
+            From the moment we arrived at Waikiki&lsquo;s Guest House, we were
             immersed in luxury and exceptional service. The attention to detail
             and the elegance of the surroundings made our stay truly
             unforgettable.

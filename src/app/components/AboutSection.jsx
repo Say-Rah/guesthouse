@@ -21,7 +21,7 @@ const AboutSection = () => {
             The number 1 Place To Find The Perfect Guest House
           </h1>
           <p className="text-lg mb-4">
-            <span className="text-primary font-bold">At Waikiki's Home,</span> we are dedicated to providing sophisticated design and attentive services that meet the highest standards of quality. With a focus on luxurious, comfortable, and reliable accommodations at affordable prices, we aim to exceed customer expectations. Founded in 2021, our mission is to offer an exceptional stay for those who value excellence.
+            <span className="text-primary font-bold">At Waikiki&lsquo;s Home,</span> we are dedicated to providing sophisticated design and attentive services that meet the highest standards of quality. With a focus on luxurious, comfortable, and reliable accommodations at affordable prices, we aim to exceed customer expectations. Founded in 2021, our mission is to offer an exceptional stay for those who value excellence.
           </p>
           <ul className="space-y-2">
             <li>
