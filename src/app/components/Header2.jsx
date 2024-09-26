@@ -22,7 +22,7 @@ export default function Header2() {
           
           {/* Image Section */}
           <div className="col-md-6 animated fadeIn">
-            <img className="img-fluid" src="/img/header.jpg" alt="Property Agent Header" />
+            <Image className="img-fluid" src="/img/header.jpg" alt="Property Agent Header" />
           </div>
         </div>
       </div>

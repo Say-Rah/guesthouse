@@ -83,7 +83,7 @@ const Review = () => {
               <div key={index} className="bg-white p-6 text-left shadow-lg w-[80%] mx-auto rounded-lg">
                 <p className="text-lg italic mb-4">"{testimonial.message}"</p>
                 <div className="flex items-center">
-                  <img
+                  <Image
                     src={testimonial.image}
                     alt={testimonial.name}
                     className="w-12 h-12 rounded-full mr-4"

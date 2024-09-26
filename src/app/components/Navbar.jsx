@@ -28,7 +28,7 @@ export default function Navbar() {
         {/* Logo and brand name */}
         <Link href="/" className="flex items-center text-center">
           <div className="p-2 mr-2">
-            <img className="w-8 h-8" src="/img/icon-deal.png" alt="Icon" />
+            <Image className="w-8 h-8" src="/img/icon-deal.png" alt="Icon" />
           </div>
           <h1 className="m-0 text-primary text-xl font-bold">SayRah</h1>
         </Link>

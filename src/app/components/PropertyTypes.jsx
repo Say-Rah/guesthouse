@@ -88,7 +88,7 @@ const PropertyTypes = () => {
           className={`bg-white shadow-lg rounded-lg p-4 text-center transform transition duration-500 hover:scale-105 hover:bg-gray-100`}
           data-wow-delay={`${property.delay}ms`}
           >
-            <img
+            <Image
               src={property.icon}
               alt={property.name}
               className="w-16 h-16 mx-auto mb-4"
